@@ -1,0 +1,14 @@
+mkdir, touch, code, ls, ls -a
+git status , git add "chapter"/ git add . , git status, git commit -m "complte ",git log
+
+If anything changed : git status - it will show as modified,
+If wants to see difference : git diff chapterName
+If wants to revoke : git checkout chapterName
+
+Working Directory -> git add - Staging Area -> git commit - Local Repo -> git push - Remote Repo
+
+To remove : $ git rm --cached -r .
+
+to Push : 
+1) git remote add origin https://github.com/Sambit-Lucifer/Story.git
+2) git push -u origin main
